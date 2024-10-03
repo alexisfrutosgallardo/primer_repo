@@ -1,0 +1,30 @@
+PARA VER CUANTAS RAMAS TIENES: git branch -a
+PARA VER EN QUÉ RAMA TE ENCUENTRAS: git branch
+PARA CAMBIAR DE RAMA: git checkout nombre_de_la_rama
+
+
+Si es la primera vez que se suben archivos o cambios a la rama:
+1. Ubicarse sobre el directorio que se desea, clic derecho y abrir Git Bash
+2. Inicializar el directorio: git init
+3. Ver en qué rama estás ubicado: git branch
+3. (Opcional) Apuntar a la rama deseada: git checkout nombre_de_la_rama
+4. Preparar los archivos a ser subidos: git add .
+5. Crear un comentario para subir: git commit -m "comentario"
+6. Subir archivos/cambios: git push -u origin nombre_de_la_rama
+
+
+PARA SUBIR ARCHIVOS O CAMBIOS:
+1. Ubicarse sobre el directorio que se desea, clic derecho y abrir Git Bash
+2. Apuntar a la rama deseada: git checkout nombre_de_la_rama
+3. Preparar los archivos a ser subidos: git add .
+4. Crear un comentario para subir: git commit -m "comentario"
+5. Subir archivos/cambios: git push origin nombre_de_la_rama
+
+
+Otros comandos:
+Para eliminar ramas primero ubicarse en otra rama y desde allí eliminarla:
+1. Elimina la rama localmente:
+	1.1. git branch -d nombre_de_la_rama
+
+2. Elimina la rama del repositorio remoto:
+	2.1. git push origin --delete nombre_de_la_rama
